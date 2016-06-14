@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDiSe">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorfont" >
+
+        <Button
+            style="@style/label_fout_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:background="@color/colorAlpha1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/fab_margin">
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker_year"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="年"
+            android:id="@+id/textView33"
+            android:textColor="@color/colorBlack"
+            android:gravity="center" />
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker_month"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="月"
+            android:id="@+id/textView34"
+            android:textColor="@color/colorBlack"
+            android:gravity="center" />
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker_day"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="日"
+            android:id="@+id/textView35"
+            android:textColor="@color/colorBlack"
+            android:gravity="center" />
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker_hour"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="时"
+            android:id="@+id/textView36"
+            android:textColor="@color/colorBlack"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/my_date_tv"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        android:gravity="center" />
+
+</LinearLayout>

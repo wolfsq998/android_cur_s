@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/download_fragment_order_ll">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorfont" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/break_but"
+            android:drawableLeft="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            android:background="@color/colorAlpha1"
+            android:textColor="@color/cityFont"
+            android:paddingLeft="25dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:singleLine="true" />
+
+        <Button
+            style="@style/label_fout_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:background="@color/colorAlpha1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/button4"
+            android:background="@color/colorAlpha1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorDiSe"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/order_sv_ll"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="待接单"
+            android:id="@+id/add_but"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_order_but"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="1"
+            android:text="已接单" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_but"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="1"
+            android:text="已安装" />
+
+    </LinearLayout>
+
+</LinearLayout>

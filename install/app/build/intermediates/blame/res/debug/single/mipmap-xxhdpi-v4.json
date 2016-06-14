@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\android_cur_s\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\android_cur_s\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android_cur_s\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher1.png",
+        "source": "D:\\android_cur_s\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher1.png",
+        "source": "D:\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\MyWork\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher1.png",
+        "source": "D:\\MyWork\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\MyWork\\install\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\MyWork\\install\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

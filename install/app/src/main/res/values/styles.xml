@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- 全屏幕拉伸-->
+    <style name="layout_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 固定自身大小-->
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 横向分布-->
+    <style name="layout_horizontal" parent="layout_full">
+        <item name="android:layout_width">0px</item>
+    </style>
+
+    <!-- 纵向分布-->
+    <style name="layout_vertical" parent="layout_full">
+        <item name="android:layout_height">0px</item>
+    </style>
+
+   <!-- 横向等份布局-->
+    <style name="layout_h_div" parent="layout_full">
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <!-- label属性-->
+    <style name="label_fout_base" parent="layout_full">
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 图标按钮属性-->
+    <style name="image_fout_base" parent="layout_full">
+        <item name="android:textColor">@color/cityFont</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 按钮属性-->
+    <style name="button_fout_base" parent="layout_full">
+        <item name="android:textColor">@color/cityFont</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 页卡标签属性-->
+    <style name="page_fout_base" parent="layout_full">
+        <item name="android:textColor">@color/cityFont</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--按钮图标-->
+    <style name="button_icon" parent="layout_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">@color/cityFont</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <!--parent="@android:style/Widget.EditText"-->
+    <style name="my_edittext_style">
+        <item name="android:background">@drawable/shurukuang1</item>
+    </style>
+    <!--下来菜单样式-->
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_selector</item>
+        <!--<item name="android:paddingLeft">5dip</item>-->
+    </style>
+
+</resources>
