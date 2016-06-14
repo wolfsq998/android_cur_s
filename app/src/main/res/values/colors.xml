@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDCDCD</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="cityFont">#676767</color>
+    <color name="appName">#676767</color>
+
+
+    <!--黑色-->
+    <color name="colorBlack">#000000</color>
+    <!--白色-->
+    <color name="colorWhite">#FFFFFF</color>
+    <!--绿色-->
+    <color name="colorGreen">#00bdb0</color>
+    <!--标题字色-->
+    <color name="colorfont">#60c9cb</color>
+    <!--半透明-->
+    <color name="colorAlpha0">#e0000000</color>
+    <!--全透明-->
+    <color name="colorAlpha1">#00000000</color>
+    <!--输入框Hint颜色-->
+    <color name="textcolorhint">#afafb0</color>
+    <!--“手动窗帘”按钮选定色-->
+    <color name="colorShouDongChuangLian">#fdb301</color>
+    <!--注册和密码找回界面背景色-->
+    <color name="regbackground">#e0f1f1</color>
+    <!--注册和密码找回界面字体色-->
+    <color name="regzitibackground">#29b0b3</color>
+    <!--立即注册字体色-->
+    <color name="regfontcolor">#95e3e4</color>
+    <!--“电动窗帘”按钮选定色-->
+    <color name="colorZiDongChuangLian">#17c7f3</color>
+    <!--窗帘类型切换未选定的按钮色-->
+    <color name="colorChuangLianQieHuan">#afafb0</color>
+    <!--提交订单界面总价区背景色-->
+    <color name="colorTijiaodingdanzongjiabeijing">#00bdb0</color>
+    <!--Tab切换按钮选中底色-->
+    <color name="colortab1">#00bdb0</color>
+    <!--Tab切换按钮未选中底色  #e3e3e3-->
+    <color name="colortab2">#afafb0</color>
+    <!--登陆界面背景色 绿色-->
+    <color name="loginbackground">#00bdb0</color>
+    <!--登陆界面按钮背景色-->
+    <color name="loginwinbutbackground">#e3e3e3</color>
+    <!--按钮色1 灰色-->
+    <color name="colorButtonUp">#afafb0</color>
+    <!--按钮色2 绿色-->
+    <color name="colorButtonDown">#00bdb0</color>
+    <!--布局背景底色-->
+    <color name="colorDiSe">#e0f1f1</color>
+    <!--标题字体颜色-->
+    <color name="colorTitle">#01bdaf</color>
+
+    <!--====================================================================-->
+
+<!--按钮外框颜色-->
+    <color name="WN_button_frame">#00bdb0</color>
+    <color name="WN_button_bg1">#60c9cb</color>
+<!--登陆界面圆形layout边框颜色-->
+    <color name="WN_oval_frame">#9600bdb0</color>
+<!--登陆界面输入框填充色-->
+    <color name="WN_login_et">#FFEEF4F5</color>
+</resources>
