@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Point;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -91,9 +92,9 @@ public class LoginWindow extends AppCompatActivity implements View.OnClickListen
                                 new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface arg0, int arg1) {
-//                                    Intent intent = new Intent(Intent.ACTION_VIEW);
-//                                    intent.setData(Uri.parse("http://www.mamakeji.net/mamainstall.apk"));
-//                                    startActivity(intent);
+                                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                                    intent.setData(Uri.parse("http://115.28.105.121:8000/curtains_assistant_shop.apk"));
+                                    startActivity(intent);
                                     }
                                 });
                         telDialog.show();

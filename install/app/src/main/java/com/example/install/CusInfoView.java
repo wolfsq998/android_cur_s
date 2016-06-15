@@ -52,7 +52,7 @@ public class CusInfoView extends LinearLayout {
     }
     private void CusTel(){
         Button m_TelBut = (Button)this.findViewById(R.id.cus_tel_but);
-        final Button m_TelTv = (Button)this.findViewById(R.id.cus_tel_tv);
+        final TextView m_TelTv = (TextView)this.findViewById(R.id.cus_tel_tv);
         m_TelBut.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {

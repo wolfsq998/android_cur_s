@@ -35,7 +35,7 @@ public class
 
     private static final String ARG = "COrderFragment";
 
-    private static final int SPAN = 3;
+    private static final int SPAN = 10;
 
     private static final int CUS_COUNT_0 =0;
     private static final int CUS_COUNT_1 =1;
@@ -349,28 +349,30 @@ public class
         if (cob!=null){
             m_WaitRl.setVisibility(View.GONE);
             for (int i=0;i<cob.size();i++){
-                CusInfoView m_CDOP = new CusInfoView(getActivity());
+                CusInfoView CDOP = new CusInfoView(getActivity());
                 if (cob.get(i).Workid != -1){
-                    LinearLayout m_WorkerInfoLl = (LinearLayout)m_CDOP.findViewById(R.id.worker_id_ll);
+                    LinearLayout m_WorkerInfoLl = (LinearLayout)CDOP.findViewById(R.id.worker_id_ll);
                     m_WorkerInfoLl.setVisibility(View.VISIBLE);
-                    Button m_WorkerInfo = (Button)m_CDOP.findViewById(R.id.worker_info);
+                    TextView m_WorkerInfo = (TextView)CDOP.findViewById(R.id.worker_info);
                     for(int j=0;j<WIB.size();j++){
                         if (cob.get(i).Workid == WIB.get(j).WorkId){
                             m_WorkerInfo.setText(WIB.get(j).Uname.toString() +":"+ WIB.get(j).Wname.toString());
-                            m_CDOP.CallWorkerBut(WIB.get(j).Wname.toString());
+                            CDOP.CallWorkerBut(WIB.get(j).Wname.toString());
                         }
                     }
                 }
-                Button m_CusNameTv = (Button)m_CDOP.findViewById(R.id.cus_name_tv);
+                TextView m_CusNameTv = (TextView)CDOP.findViewById(R.id.cus_name_tv);
                 m_CusNameTv.setText(cob.get(i).Cusname);
-                Button m_CustelTv = (Button)m_CDOP.findViewById(R.id.cus_tel_tv);
-                m_CustelTv.setText(cob.get(i).Custel);
-                Button m_CusaddrTv =(Button)m_CDOP.findViewById(R.id.cus_addr_tv);
-                m_CusaddrTv.setText(cob.get(i).Cusaddr);
-                Button m_VisittimeTv = (Button)m_CDOP.findViewById(R.id.visit_time_tv);
-                m_VisittimeTv.setText(ToolsManager.GetInstance().getDate(cob.get(i).Visittime));
-                m_CDOP.OrderInfoBut(cob.get(i).Orderid);
-                ll.addView(m_CDOP);
+                TextView CustelTv = (TextView)CDOP.findViewById(R.id.cus_tel_tv);
+                CustelTv.setText(cob.get(i).Custel);
+                TextView CusaddrTv =(TextView)CDOP.findViewById(R.id.cus_addr_tv);
+                CusaddrTv.setText(cob.get(i).Cusaddr);
+                TextView VisittimeTv = (TextView)CDOP.findViewById(R.id.visit_time_tv);
+                VisittimeTv.setText(ToolsManager.GetInstance().getDate(cob.get(i).Visittime));
+                TextView  SetOrderTime = (TextView)CDOP.findViewById(R.id.order_time_tv);
+                SetOrderTime.setText(ToolsManager.GetInstance().getDate(cob.get(i).Settime));
+                CDOP.OrderInfoBut(cob.get(i).Orderid);
+                ll.addView(CDOP);
                 if(m_NewOrderLl.getChildCount()>0)
                     m_WaitRl.setVisibility(View.GONE);
             }

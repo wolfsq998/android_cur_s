@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="netweb">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/netweb.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

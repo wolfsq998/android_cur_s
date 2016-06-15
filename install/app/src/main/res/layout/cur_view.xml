@@ -24,22 +24,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/textView22"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
+                android:layout_weight="0.258"
                 android:textSize="16dp"
-                android:text="安装位置" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView18"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:text="安装位置"
+                android:background="@drawable/shape_free1" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -91,22 +84,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/textView16"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
+                android:layout_weight="0.258"
                 android:textSize="16dp"
-                android:text="窗帘备注" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView6"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:text="窗帘备注"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -155,22 +141,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="窗帘尺寸"
                 android:id="@+id/textView18"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
-                android:textSize="16dp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView7"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:layout_weight="0.258"
+                android:textSize="16dp"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -211,20 +190,14 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="mm"
                     android:id="@+id/textView3"
                     android:layout_gravity="center_vertical"
                     android:textColor="@color/colorfont"
                     android:gravity="center"
-                    android:textSize="16dp" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView11"
-                    android:background="@drawable/icon_line3"
-                    android:layout_margin="5dp" />
+                    android:textSize="16dp"
+                    android:background="@drawable/shape_free" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -280,22 +253,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="面料货号"
                 android:id="@+id/textView19"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
-                android:textSize="16dp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView8"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:layout_weight="0.258"
+                android:textSize="16dp"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -334,22 +300,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="工艺款式"
                 android:id="@+id/textView20"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
-                android:textSize="16dp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView9"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:layout_weight="0.258"
+                android:textSize="16dp"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -388,22 +347,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/textView"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
+                android:layout_weight="0.258"
                 android:textSize="16dp"
-                android:text="窗帘绑带" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView10"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:text="窗帘绑带"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -442,22 +394,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/textView8"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
+                android:layout_weight="0.258"
                 android:textSize="16dp"
-                android:text="窗帘轨道" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView13"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:text="窗帘轨道"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -496,22 +441,15 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/textView9"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorfont"
                 android:gravity="center"
-                android:layout_weight="0.25"
+                android:layout_weight="0.258"
                 android:textSize="16sp"
-                android:text="轨道信息" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView14"
-                android:background="@drawable/icon_line3"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
+                android:text="轨道信息"
+                android:background="@drawable/shape_free" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -562,20 +500,14 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="mm"
                     android:id="@+id/textView14"
                     android:layout_gravity="center_vertical"
                     android:textColor="@color/colorfont"
                     android:gravity="center"
-                    android:textSize="16dp" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView17"
-                    android:background="@drawable/icon_line3"
-                    android:layout_margin="5dp" />
+                    android:textSize="16dp"
+                    android:background="@drawable/shape_free" />
 
                 <EditText
                     style="@style/my_edittext_style"

@@ -3,7 +3,7 @@
     <string name="app_ip">115.28.105.121</string>
     <string name="app_port">3010</string>
     <string name="app_version_code">11000</string>
-    <string name="app_name">沃纳助手·窗帘·商户版</string>
+    <string name="app_name">窗帘助手·商</string>
 
     <!--协议界面-->
     <string name="yes">同意</string>
@@ -20,7 +20,7 @@
     <string name="customer_tel">客户电话</string>
     <string name="customer_address">客户地址</string>
     <string name="customer_time">预约时间</string>
-    <string name="appoint_worker">预约时间</string>
+    <string name="appoint_worker">指派工人</string>
     <string name="add_curtain">添加窗帘</string>
     <string name="read_order">查看订单</string>
     <string name="up_order">确认落单</string>
