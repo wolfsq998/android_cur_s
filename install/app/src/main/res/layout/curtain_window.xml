@@ -442,7 +442,8 @@
                                     android:imeOptions="actionNext"
                                     android:inputType="text"
                                     android:editable="false"
-                                    android:background="@drawable/shape_free" />
+                                    android:background="@drawable/shape_free"
+                                    android:clickable="false" />
 
                                 <Button
                                     android:layout_width="0dp"

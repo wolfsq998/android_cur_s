@@ -42,9 +42,10 @@
                 android:paddingLeft="10dp"
                 android:layout_weight="1"
                 android:background="@color/colorAlpha1"
-                android:textColor="@color/colorfont"
+                android:textColor="@color/colorBlack"
                 android:gravity="left|center"
-                android:paddingRight="10dp" />
+                android:paddingRight="10dp"
+                android:layout_gravity="center_vertical" />
 
         </LinearLayout>
 
@@ -82,8 +83,9 @@
                     android:paddingLeft="10dp"
                     android:layout_weight="1"
                     android:background="@color/colorAlpha1"
-                    android:textColor="@color/colorfont"
-                    android:gravity="left|fill" />
+                    android:textColor="@color/colorBlack"
+                    android:gravity="left|fill"
+                    android:layout_gravity="center_vertical" />
 
             </LinearLayout>
 
@@ -133,10 +135,11 @@
                 android:paddingLeft="10dp"
                 android:layout_weight="1"
                 android:background="@color/colorAlpha1"
-                android:textColor="@color/colorfont"
+                android:textColor="@color/colorBlack"
                 android:gravity="left|center"
                 android:paddingRight="10dp"
-                android:text="1313132132131313213131313131313131313131313131321基本框架和客户客家话客家话客家话空间和客家话客家话客家话客家话离开家和进口货激活老家伙老家伙厉害老家伙老家伙脚后跟脚后跟回复几个个脚后跟好几个结果看了就会个空间会更313131321321311" />
+                android:text="1313132132131313213131313131313131313131313131321基本框架和客户客家话客家话客家话空间和客家话客家话客家话客家话离开家和进口货激活老家伙老家伙厉害老家伙老家伙脚后跟脚后跟回复几个个脚后跟好几个结果看了就会个空间会更313131321321311"
+                android:layout_gravity="center_vertical" />
 
         </LinearLayout>
 
@@ -151,7 +154,7 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1" >
 
                 <TextView
@@ -169,15 +172,16 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:id="@+id/worker_info"
                     android:textSize="14sp"
                     android:paddingLeft="10dp"
                     android:layout_weight="1"
                     android:background="@color/colorAlpha1"
-                    android:textColor="@color/colorfont"
-                    android:gravity="left|fill" />
+                    android:textColor="@color/colorBlack"
+                    android:gravity="left|fill"
+                    android:layout_gravity="center_vertical" />
 
             </LinearLayout>
 
@@ -226,9 +230,10 @@
                 android:paddingLeft="10dp"
                 android:layout_weight="1"
                 android:background="@color/colorAlpha1"
-                android:textColor="@color/colorfont"
+                android:textColor="@color/colorBlack"
                 android:gravity="left|center"
-                android:paddingRight="10dp" />
+                android:paddingRight="10dp"
+                android:layout_gravity="center_vertical" />
 
         </LinearLayout>
 
@@ -263,10 +268,10 @@
                     android:layout_height="30dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:id="@+id/order_time_tv"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:paddingLeft="10dp"
                     android:background="@color/colorAlpha1"
-                    android:textColor="@color/colorfont"
+                    android:textColor="@color/colorBlack"
                     android:gravity="fill"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1" />

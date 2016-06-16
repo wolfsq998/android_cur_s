@@ -277,7 +277,8 @@
                 android:id="@+id/red_xieyi_but"
                 android:layout_marginLeft="5dp"
                 android:background="@color/colorAlpha1"
-                android:textColor="@color/regzitibackground" />
+                android:textColor="@color/regzitibackground"
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>

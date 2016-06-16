@@ -575,7 +575,7 @@ public class CurtainWindow extends AppCompatActivity implements View.OnClickList
                 }
             }
             //判断指定数据是否正确，决定是否提交订单
-            String nowTime = m_Calendar.get(Calendar.YEAR) + "年" + (m_Calendar.get(Calendar.MONTH) + 1) + "月" + m_Calendar.get(Calendar.DAY_OF_MONTH) + "日 " + m_Calendar.get(Calendar.HOUR) + ":00";
+            String nowTime = m_Calendar.get(Calendar.YEAR) + "年" + (m_Calendar.get(Calendar.MONTH) + 1) + "月" + m_Calendar.get(Calendar.DAY_OF_MONTH) + "日 " + m_Calendar.get(Calendar.HOUR_OF_DAY) + ":"+ m_Calendar.get(Calendar.MINUTE);
             if (!(m_DatePickerBut.getText().equals("当前选择的时间已过时"))) {
                 if (m_CusNameEt.getText().length() > 0 && m_CusAddrEt.getText().length() > 0 && m_CusTelEt.getText().length() == 11) {
                     AppDataManager.GetInstance().getCOB();
